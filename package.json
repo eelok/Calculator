@@ -1,0 +1,22 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "simple calculator",
+  "main": "main.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server --browser=firefox",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "author": "Mariia",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.8.3",
+    "npm-run-all": "^4.1.2",
+    "run-all": "^1.0.1"
+  }
+}
